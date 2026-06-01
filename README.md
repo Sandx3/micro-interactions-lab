@@ -1,17 +1,18 @@
-# Micro-Interactions Lab: Advanced UI Components 🧪
+# 🔬 Micro-Interactions Lab
 
-Welcome to my UI Research & Development space. This repository is a dedicated playground built to explore the boundaries of modern front-end styling using **React**, **TypeScript**, and **Tailwind CSS**.
+A responsive landing page built to master **Tailwind CSS (v4)** and smooth interface animations in React.
 
-The core focus of this project is to master the small details — **micro-interactions, dynamic states, and animations** — that separate generic interfaces from production-grade, premium user experiences.
+🚀 [Live Preview](https://sandx3.github.io/micro-interactions-lab/)
 
-[Live Preview](https://sandx3.github.io/micro-interactions-lab/)
+## 🛠️ What I focused on in this project:
 
----
+* **Tailwind v4 Setup:** Using the new `@theme` configuration and dynamic modern gradients (`bg-linear`, `bg-radial`) driven by CSS variables.
+* **Custom Carousel with Smooth Transitions:** Created a reusable slider from scratch using the Render Props pattern. Implemented a twin-timer state loop to animate page-changing smoothly without content jumps.
+* **Smart Dynamic Pagination:** Wrote a JS helper (`paginate`) that dynamically recalculates the number of pages/dots depending on the screen size (3 items on desktop vs 1 on mobile).
+* **Mobile UX Fixes:** Handled initial render opacity issues on mobile, disabled sticky `:hover` effects on touchscreens, and implemented an automated loop auto-play with manual reset.
 
-## 🛠️ The Tech Stack
-
-- **Framework:** React 19 (Vite)
-- **Styling:** Tailwind CSS v4 + PostCSS
-- **Type Safety:** TypeScript (for predictable component props and strict variants)
-- **Deployment:** GitHub Actions (Automated CI/CD pipeline triggering builds on every push)
+## 🧰 Tech Stack
+* React (Vite)
+* Tailwind CSS v4
+* JavaScript (ES6+)
 
