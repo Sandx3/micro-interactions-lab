@@ -32,6 +32,13 @@ export default function Footer() {
           <p className="text-[9px] py-3 border-t-2 border-slate-100 dark:border-card-dark">
             Copyright &copy; {new Date().getFullYear()} IgniteLearn. All rights
             reserved.
+            <br />
+            <br />
+            <a href="https://storyset.com/online">
+              Online illustrations by Storyset
+            </a>
+            <br />
+            Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>
           </p>
         </div>
       </div>
